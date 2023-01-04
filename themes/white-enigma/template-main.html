@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="[art-keywords]"/>
+    <meta name="description" content="[art-description]"/>
+    <link rel="stylesheet" type="text/css" href="[art-path]include/theme-styles.css">
+    <link rel="stylesheet" type="text/css" href="[art-path]include/mmenu/jquery.mmenu.css">
+    <script src="[art-path]include/mmenu/jquery.mmenu.js" type="text/javascript"></script>
+    <script type="text/javascript">$(document).ready(function(){$("#menu").mmenu({extensions:["position-right","pagedim-black"]}).css("visibility","visible");var i=$("#menu").data("mmenu");$("#menu-close").click(function(){i.close()})});</script>
+    <title>[art-title]</title>
+    [art-header]
+</head>
+<body>
+<!-- sticky footer start -->
+<div class="sticky-footer">
+    <div class="header d-md-flex cross-center">
+        <div class="col-md-6 col-lg-3 cross-center zoomin" style="animation-delay: 1.2s;">
+            <a href="[art-home]"><img src="[art-sitelogo]" class="header-logo"></a>
+        </div>
+        <div class="d-none d-lg-flex col-md-4 col-lg-4 cross-center zoomin" style="animation-delay:.3s">
+            <!-- HEADER NAV LINKS / COMMENT TO DISABLE -->
+            <a href="javascript:void(0);"><span class="art-header-links">Home</span></a>
+            <a href="javascript:void(0);"><span class="art-header-links">Libero</span></a>
+            <a href="javascript:void(0);"><span class="art-header-links">Aliquet</span></a>
+        </div>
+        <div class="col-md-6 col-lg-5 cross-center end">
+            <a href="[art-facebook]" class="zoomin d-md-none d-lg-inline" style="animation-delay: .4s;"><img class="social-media-icon d-none d-md-inline" src="[art-path]images/sm-facebook.svg" alt="facebook"></a>
+            <a href="[art-twitter]" class="zoomin d-md-none d-lg-inline" style="animation-delay: .5s;"><img class="social-media-icon d-none d-md-inline" src="[art-path]images/sm-twitter.svg" alt="twitter"></a>
+            <a href="[art-linkedin]" class="zoomin d-md-none d-lg-inline" style="animation-delay: .6s;"><img class="social-media-icon d-none d-md-inline" src="[art-path]images/sm-linkedin.svg" style="margin-right: 12px;" alt="linkedin"></a>
+            <form action="javascript:artSearch('[art-search]','art-search-field-primary');" class="d-none d-md-flex cross-center">
+                <input type="text" id="art-search-field-primary" class="art-search-box zoomin" placeholder="Search" style="animation-delay: .7s; margin-left: auto;">
+                <div class="cross-center zoomin" style="animation-delay: .8s;"><input class="hover" type="image" src="[art-path]images/search.svg" style="width: 40px;"></div>
+            </form>
+            <a href="#menu" class="zoomin d-md-inline" style="animation-delay: .9s;"><img class="social-media-icon" src="[art-path]images/menu.svg"></a>
+        </div>
+    </div>
+    <div class="header-nav-strip fadein" style="animation-delay: 1s;">
+        <a href="javascript:void(0);"><span class="art-header-links">Moles</span></a>
+        <a href="javascript:void(0);"><span class="art-header-links">Nulla</span></a>
+        <a href="javascript:void(0);"><span class="art-header-links">Aliquet</span></a>
+        <a href="javascript:void(0);"><span class="art-header-links">Donec</span></a>
+        <a href="javascript:void(0);"><span class="art-header-links">Libero</span></a>
+    </div>
+    <!-- MOBILE SEARCH STRIPE -->
+    <div class="header-nav-strip center d-md-none">
+        <form action="javascript:artSearch('[art-search]','art-search-field-a');" class="cross-center">
+            <input type="text" id="art-search-field-a" class="art-search-box zoomin" placeholder="Search" style="animation-delay:.4s;">
+            <div class="cross-center zoomin" style="animation-delay: .5s;"><input class="hover" type="image" src="[art-path]images/search.svg" style="width: 40px;"></div>
+        </form>
+    </div>
+    <!-- MOBILE SEARCH STRIPE end -->
+    <!-- CONTENTS -->
+    [art-contents]
+    <!-- CONTENTS -->
+</div>
+<!-- sticky footer end -->
+<div class="footer">
+    <div class="container-fluid">
+        <div class="row cross-center">
+            <div class="col-lg-4 footer-area-address"><p>[art-address]</p></div>
+            <div class="col-lg-4 footer-area-logo center" >
+                <img src="[art-sitelogo]" style="width:220px;">
+            </div>
+            <div class="col-lg-4 footer-area-icons">
+                <a href="[art-facebook]"><img class="social-media-icon" src="[art-path]images/sm-facebook.svg" alt="facebook"></a>
+                <a href="[art-twitter]"><img class="social-media-icon" src="[art-path]images/sm-twitter.svg" alt="twitter"></a>
+                <a href="[art-linkedin]"><img class="social-media-icon" src="[art-path]images/sm-linkedin.svg" alt="linkedin"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-strip">ALL COPYRIGHTS ARE RESERVED</div>
+<!-- SLIDING MENUS START -->
+<nav id="menu" style="visibility: hidden;">
+    <ul>
+        <li>
+            <span>
+                <form action="javascript:artSearch('[art-search]','art-search-menu-field');" class="cross-center">
+                    <input type="text" id="art-search-menu-field" class="art-search-box" placeholder="Search" style="margin-left: auto;">
+                    <input type="image" src="[art-path]images/search.svg" style="margin-left:4px; width: 40px; cursor: pointer;">
+                </form>
+            </span>
+        </li>
+        <li><span><a href="javascript:void(0);">Pellentesque</a></span></li>
+        <li><span><a href="javascript:void(0);">Malesuada</a></span>
+            <ul>
+                <li><span><a href="javascript:void(0);">Donec</a></span></li>
+                <li><span><a href="javascript:void(0);">Tincidunt</a></span></li>
+                <li><span><a href="javascript:void(0);">Maecenas</a></span></li>
+            </ul>
+        </li>
+        <li><span><a href="javascript:void(0);">Donec</a></span></li>
+        <li><span><a href="javascript:void(0);">Tincidunt</a></span></li>
+        <li><span><a href="javascript:void(0);">Maecenas</a></span></li>
+        <li id="menu-close" class="center"><button class="art-button-small" style="min-width: 0px">close</button></li>
+    </ul>
+</nav>
+<!--    SLIDING MENUS END -->
+[art-footer]
+</body>
+</html>
